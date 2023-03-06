@@ -1,0 +1,55 @@
+//font
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Fontawesome
+$fa-font-path: "~fa/../webfonts";
+@import "~fa/fontawesome.scss";
+@import "~fa/solid.scss";
+@import "~fa/regular.scss";
+@import "~fa/brands.scss";
+
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: $textFont;
+    font-weight: 400;
+    background-image: url("../img/fitnessiconbackground.jpg");
+    background-repeat: repeat;
+}
+main {
+    display: block;
+}
+
+// Navbar
+.nav-link {
+    font-family: $textFont;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.me-2 {
+    width: 3rem;
+    height: 3rem;
+}
+
+// main menu
+.col-md-6 {
+    padding: 1rem;
+}
+
+// auth page
+.form-auth {
+    max-width: 30rem;
+}
+.form-auth-bg {
+    padding: 4rem;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
